@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Sign Up Form | Assignment Two</title>
+</head>
+<body>
+    <div class="container">
+        <section class="form-section">
+            <div class="section-description">
+                <img src="./images/logo.png" alt="Logo" width="80px" height="80px" class="Logo" />
+                <h1>For Individuals</h1>
+                <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+            </div>
+            <div class="section-content">
+                <form class="form-body">
+                    <div class="flex flex-col gap-30">
+                        <div class="input-div">
+                            <label>First Name</label>
+                            <input type="text" placeholder="Zoe" required />
+                        </div>
+                        <div class="input-div">
+                            <label>Last Name</label>
+                            <input type="text" placeholder="Mark" required />
+                        </div>
+                        <div class="input-div">
+                            <label>Gender</label>
+                            <select>
+                                <option value="Select here" default>Select gender</option>
+                                <option value="Male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="input-div">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter Date" required />
+                        </div>
+                        <div class="input-div">
+                            <label>Weight (KG)</label>
+                            <input type="number" placeholder="Enter Weight" required />
+                        </div>
+                        <div class="input-div">
+                            <label>Height (CM)</label>
+                            <input type="number" placeholder="Enter height here.." required />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-div">
+                            <label>Activity Level</label>
+                            <select>
+                                <option value="Select here" default>Select level</option>
+                            </select>
+                        </div>
+                        <div class="input-div">
+                            <label>Password</label>
+                            <input type="password" placeholder="" required />
+                        </div>
+                    </div>
+                    <div>
+                        <button class="w-full">Register</button>
+                    </div>
+                    <div class="text-center base">
+                        <p>By clicking <span class="underline">Register</span> you agree to our <span class="underline cyan bold-400">Terms of Use</span> and our <span class="underline cyan bold-400">Privacy Policy</span></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

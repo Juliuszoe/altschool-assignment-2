@@ -1,0 +1,168 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F7FDFC;
+}
+
+/* Varaibles */
+.underline {
+    text-decoration: underline;
+}
+
+.cyan {
+    color: #2EC4B6;
+}
+
+.bold-400 {
+    font-weight: 400;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.bold-300 {
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap-10 {
+    gap: 10;
+}
+
+.gap-20 {
+    gap: 20;
+}
+
+.gap-30 {
+    gap: 30;
+}
+
+.gap-12 {
+    gap: 12;
+}
+
+.gap-24 {
+    gap: 24;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Reuseable Styles */
+.container {
+    margin: 0 auto;
+    max-width: 1023px;
+    padding: 0 12px;
+}
+
+.form-section {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+.section-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.section-description h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section-description p {
+    color: #737373;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.section-content {
+    padding: 30px 18px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.input-div label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input-div input, .input-div select {
+    border: 2px solid #F0F0F0;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+button {
+    background: #2EC4B6;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.base {
+    margin-top: 10px;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) and (max-width: 2560px) {
+  .form-section {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .section-description {
+    padding: 20px 12px 0px 12px;
+  }
+}
+
